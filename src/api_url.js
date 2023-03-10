@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://hammerhead-app-niy7i.ondigitalocean.app/api";
 export default BASE_URL;
 
 //https://wallet-5klca.ondigitalocean.app/api/
