@@ -1,19 +1,19 @@
 {
-  "short_name": "Mahindrathar77",
+  "short_name": "SpaceX",
   "name": "WebApp",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "slogo.png",
       "sizes": "200x54",
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "slogo.png",
       "type": "image/png",
       "sizes": "200x54"
     },
     {
-      "src": "logo.png",
+      "src": "slogo.png",
       "type": "image/png",
       "sizes": "200x54"
     }
