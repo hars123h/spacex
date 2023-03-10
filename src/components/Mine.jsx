@@ -58,6 +58,9 @@ import my4 from '../images/simages/temp/asset 4.png';
 import my5 from '../images/simages/temp/asset 5.png';
 import my6 from '../images/simages/temp/asset 6.png';
 
+import spacex from '../images/simages/ologo.png';
+
+
 
 const customStyles2 = {
   content: {
@@ -304,8 +307,8 @@ const Mine = () => {
 
 
       <div className="flex flex-col bg-red-800 gap-2  border-b border-gray-100 pt-6 mb-2 justify-center">
-        <div className="info gap-4  flex flex-col items-center ">
-          <img src={my0} alt="logo" className='w-20 rounded-full' />
+        <div className="info gap-2  flex flex-col items-center ">
+          <img src={spacex} alt="logo" className='w-24 rounded-full bg-white p-2' />
           <div className="user_no flex flex-col text-white ">
             <div className="no text-xl font-medium mb-2">ID: {mobileno} <span className='text-red-500 text-sm font-bold'>VIP 0</span></div>
           </div>
@@ -347,7 +350,7 @@ const Mine = () => {
 
         <div className='bg-red-800 border-b border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => navigate('/project')}>
           <img src={my2} alt="invite" className='w-10 h-10 mx-auto mb-1' />
-          <div className='text-center text-white text-md font-semibold'>My Starlink Plans</div>
+          <div className='text-center text-white text-md font-semibold'>My Finolex Plans</div>
         </div>
 
         <div className='bg-red-800 border-t border-b border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => navigate('/record')}>

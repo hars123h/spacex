@@ -90,6 +90,13 @@ import assets5 from '../images/simages/asset 5.png';
 import assets6 from '../images/simages/asset 6.png';
 import assets7 from '../images/simages/asset 7.png';
 
+import pl1 from '../images/simages/pl1.png';
+import pl2 from '../images/simages/pl2.png';
+import pl3 from '../images/simages/pl3.png';
+import pl4 from '../images/simages/pl4.png';
+import pl5 from '../images/simages/pl5.png';
+import pl6 from '../images/simages/pl6.png';
+
 const customStyles = {
     content: {
         top: '50%',
@@ -334,7 +341,7 @@ const Home = () => {
                                     🔥🔥🔥All plan are Daily Withdrawal <br />
                                 </div>
                                 {/* <div>Welcome to Mahindra Thar App</div>
-                                <div>MahindraThar is a long term earning app</div>
+                                <div>Finolex is a long term earning app</div>
                                 <div>Daily Income Daily Withdrawal</div>
                                 <div>Users can invest and make money by themselves</div>
                                 <div>You can also form your own team to earn generous commissions</div>
@@ -415,8 +422,8 @@ const Home = () => {
             </div>
 
             <div className='mt-2 text-sm  text-white flex items-center shadow-lg  mb-2 sm:w-3/5 lg:w-3/5 mx-2'>
-                <div className={`w-1/2 text-center py-4 ${currentVisible === 'big' ? ' bg-red-800' : 'bg-[#efefef] text-red-800'}`} onClick={() => setCurrentVisible('big')}>Starlink Daily Income</div>
-                <div className={`w-1/2 text-center py-4 ${currentVisible === 'short' ? ' bg-red-800' : 'bg-[#efefef] text-red-800'}`} onClick={() => setCurrentVisible('short')}>Starlink High Income</div>
+                <div className={`w-1/2 text-center py-4 ${currentVisible === 'big' ? ' bg-red-800' : 'bg-[#efefef] text-red-800'}`} onClick={() => setCurrentVisible('big')}>Finolex Daily Income</div>
+                <div className={`w-1/2 text-center py-4 ${currentVisible === 'short' ? ' bg-red-800' : 'bg-[#efefef] text-red-800'}`} onClick={() => setCurrentVisible('short')}>Finolex High Income</div>
             </div>
 
             {/*Plans Cards*/}
@@ -428,71 +435,71 @@ const Home = () => {
                             <div className='grid grid-cols-1'>
                                 {userDetails && (amountDetails.plan_state[0] === 0) ? (
                                     <span className='pointer-events-none'>
-                                        <Card product_type={"long"} product_image={asset1} handleClick={handleClick} plan_name={"MahindraThar 1"} plan_cycle={45} plan_daily_earning={110} plan_amount={600} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl1} handleClick={handleClick} plan_name={"Finolex 1"} plan_cycle={45} plan_daily_earning={110} plan_amount={600} plan_type={'Big Plan'} />
                                     </span>
                                 ) : (
                                     <span>
-                                        <Card product_type={"long"} product_image={asset1} handleClick={handleClick} plan_name={"MahindraThar 1"} plan_cycle={45} plan_daily_earning={110} plan_amount={600} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl1} handleClick={handleClick} plan_name={"Finolex 1"} plan_cycle={45} plan_daily_earning={110} plan_amount={600} plan_type={'Big Plan'} />
                                     </span>
                                 )}
 
                                 {userDetails && (amountDetails.plan_state[1] === 0) ? (
                                     <span className='pointer-events-none'>
-                                        <Card product_type={"long"} product_image={asset2} handleClick={handleClick} plan_name={"MahindraThar 2"} plan_cycle={45} plan_daily_earning={240} plan_amount={1800} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl2} handleClick={handleClick} plan_name={"Finolex 2"} plan_cycle={45} plan_daily_earning={240} plan_amount={1800} plan_type={'Big Plan'} />
                                     </span>
                                 ) : (
                                     <span>
-                                        <Card product_type={"long"} product_image={asset2} handleClick={handleClick} plan_name={"MahindraThar 2"} plan_cycle={45} plan_daily_earning={240} plan_amount={1800} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl2} handleClick={handleClick} plan_name={"Finolex 2"} plan_cycle={45} plan_daily_earning={240} plan_amount={1800} plan_type={'Big Plan'} />
                                     </span>
                                 )}
 
                                 {userDetails && (amountDetails.plan_state[2] === 0) ? (
                                     <span className='pointer-events-none'>
-                                        <Card product_type={"long"} product_image={asset3} handleClick={handleClick} plan_name={"MahindraThar 3"} plan_cycle={45} plan_daily_earning={800} plan_amount={4500} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl3} handleClick={handleClick} plan_name={"Finolex 3"} plan_cycle={45} plan_daily_earning={800} plan_amount={4500} plan_type={'Big Plan'} />
                                     </span>
                                 ) : (
                                     <span>
-                                        <Card product_type={"long"} product_image={asset3} handleClick={handleClick} plan_name={"MahindraThar 3"} plan_cycle={45} plan_daily_earning={800} plan_amount={4500} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl3} handleClick={handleClick} plan_name={"Finolex 3"} plan_cycle={45} plan_daily_earning={800} plan_amount={4500} plan_type={'Big Plan'} />
                                     </span>
                                 )}
 
                                 {userDetails && (amountDetails.plan_state[3] === 0) ? (
                                     <span className='pointer-events-none'>
-                                        <Card product_type={"long"} product_image={asset4} handleClick={handleClick} plan_name={"MahindraThar 4"} plan_cycle={20} plan_daily_earning={1200} plan_amount={6800} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl4} handleClick={handleClick} plan_name={"Finolex 4"} plan_cycle={20} plan_daily_earning={1200} plan_amount={6800} plan_type={'Big Plan'} />
                                     </span>
                                 ) : (
                                     <span>
-                                        <Card product_type={"long"} product_image={asset4} handleClick={handleClick} plan_name={"MahindraThar 4"} plan_cycle={20} plan_daily_earning={1200} plan_amount={6800} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl4} handleClick={handleClick} plan_name={"Finolex 4"} plan_cycle={20} plan_daily_earning={1200} plan_amount={6800} plan_type={'Big Plan'} />
                                     </span>
                                 )}
 
                                 {userDetails && (amountDetails.plan_state[4] === 0) ? (
                                     <span className='pointer-events-none'>
-                                        <Card product_type={"long"} product_image={asset5} handleClick={handleClick} plan_name={"MahindraThar 5"} plan_cycle={20} plan_daily_earning={1800} plan_amount={9000} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl5} handleClick={handleClick} plan_name={"Finolex 5"} plan_cycle={20} plan_daily_earning={1800} plan_amount={9000} plan_type={'Big Plan'} />
                                     </span>
                                 ) : (
                                     <span>
-                                        <Card product_type={"long"} product_image={asset5} handleClick={handleClick} plan_name={"MahindraThar 5"} plan_cycle={20} plan_daily_earning={1800} plan_amount={9000} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={pl5} handleClick={handleClick} plan_name={"Finolex 5"} plan_cycle={20} plan_daily_earning={1800} plan_amount={9000} plan_type={'Big Plan'} />
                                     </span>
                                 )}
 
                                 {/* {userDetails && (amountDetails.plan_state[5] === 0) ? (
                                     <span className='pointer-events-none'>
-                                        <Card product_type={"long"} product_image={asset6} handleClick={handleClick} plan_name={"MahindraThar 6"} plan_cycle={80} plan_daily_earning={16550} plan_amount={48000} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={asset6} handleClick={handleClick} plan_name={"Finolex 6"} plan_cycle={80} plan_daily_earning={16550} plan_amount={48000} plan_type={'Big Plan'} />
                                     </span>
                                 ) : (
                                     <span>
-                                        <Card product_type={"long"} product_image={asset6} handleClick={handleClick} plan_name={"MahindraThar 6"} plan_cycle={80} plan_daily_earning={16550} plan_amount={48000} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={asset6} handleClick={handleClick} plan_name={"Finolex 6"} plan_cycle={80} plan_daily_earning={16550} plan_amount={48000} plan_type={'Big Plan'} />
                                     </span>
                                 )} */}
 
                                 {/* {userDetails && (amountDetails.plan_state[6] === 0) ? (
                                     <span className='pointer-events-none'>
-                                        <Card product_type={"long"} product_image={asset7} handleClick={handleClick} plan_name={"MahindraThar 7"} plan_cycle={60} plan_daily_earning={33000} plan_amount={76000} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={asset7} handleClick={handleClick} plan_name={"Finolex 7"} plan_cycle={60} plan_daily_earning={33000} plan_amount={76000} plan_type={'Big Plan'} />
                                     </span>
                                 ) : (
                                     <span>
-                                        <Card product_type={"long"} product_image={asset7} handleClick={handleClick} plan_name={"MahindraThar 7"} plan_cycle={60} plan_daily_earning={33000} plan_amount={76000} plan_type={'Big Plan'} />
+                                        <Card product_type={"long"} product_image={asset7} handleClick={handleClick} plan_name={"Finolex 7"} plan_cycle={60} plan_daily_earning={33000} plan_amount={76000} plan_type={'Big Plan'} />
                                     </span>
                                 )} */}
 
@@ -529,56 +536,56 @@ const Home = () => {
                             (
                                 <span className='pointer-events-none'>
                                     {/* <span>hi</span> */}
-                                    <Card product_type={"short"} product_image={asset6} handleClick={handleClick} plan_name={"MahindraThar 6"} plan_cycle={5} plan_daily_earning={230} plan_amount={650} plan_type={'Short Plan'} />
+                                    <Card product_type={"short"} product_image={pl6} handleClick={handleClick} plan_name={"Finolex 6"} plan_cycle={5} plan_daily_earning={230} plan_amount={650} plan_type={'Short Plan'} />
                                 </span>
                             ) :
                             <span>
-                                <Card product_type={"short"} product_image={asset6} handleClick={handleClick} plan_name={"MahindraThar 6"} plan_cycle={5} plan_daily_earning={230} plan_amount={650} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={pl6} handleClick={handleClick} plan_name={"Finolex 6"} plan_cycle={5} plan_daily_earning={230} plan_amount={650} plan_type={'Short Plan'} />
                             </span>
                         }
 
                         {(userDetails.boughtLong < 1 || amountDetails.plan_state[6] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={asset7} handleClick={handleClick} plan_name={"MahindraThar 7"} plan_cycle={5} plan_daily_earning={510} plan_amount={1200} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={pl1} handleClick={handleClick} plan_name={"Finolex 7"} plan_cycle={5} plan_daily_earning={510} plan_amount={1200} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={asset7} handleClick={handleClick} plan_name={"MahindraThar 7"} plan_cycle={5} plan_daily_earning={510} plan_amount={1200} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={pl1} handleClick={handleClick} plan_name={"Finolex 7"} plan_cycle={5} plan_daily_earning={510} plan_amount={1200} plan_type={'Short Plan'} />
                             </span>
                             )}
 
                         {(userDetails.boughtLong < 1 || amountDetails.plan_state[7] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={asset8} handleClick={handleClick} plan_name={"MahindraThar 8"} plan_cycle={5} plan_daily_earning={800} plan_amount={2500} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={pl2} handleClick={handleClick} plan_name={"Finolex 8"} plan_cycle={5} plan_daily_earning={800} plan_amount={2500} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={asset8} handleClick={handleClick} plan_name={"MahindraThar 8"} plan_cycle={5} plan_daily_earning={800} plan_amount={2500} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={pl2} handleClick={handleClick} plan_name={"Finolex 8"} plan_cycle={5} plan_daily_earning={800} plan_amount={2500} plan_type={'Short Plan'} />
                             </span>
                             )}
 
                         {(userDetails.boughtLong < 1 || amountDetails.plan_state[8] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={asset9} handleClick={handleClick} plan_name={"MahindraThar 9"} plan_cycle={5} plan_daily_earning={3500} plan_amount={6000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={pl3} handleClick={handleClick} plan_name={"Finolex 9"} plan_cycle={5} plan_daily_earning={3500} plan_amount={6000} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={asset9} handleClick={handleClick} plan_name={"MahindraThar 9"} plan_cycle={5} plan_daily_earning={3500} plan_amount={6000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={pl3} handleClick={handleClick} plan_name={"Finolex 9"} plan_cycle={5} plan_daily_earning={3500} plan_amount={6000} plan_type={'Short Plan'} />
                             </span>
                             )}
 
                         {/* {(userDetails.boughtLong < 1 || amountDetails.plan_state[11] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={asset2} handleClick={handleClick} plan_name={"MahindraThar 11"} plan_cycle={4} plan_daily_earning={50000} plan_amount={30000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={asset2} handleClick={handleClick} plan_name={"Finolex 11"} plan_cycle={4} plan_daily_earning={50000} plan_amount={30000} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={asset2} handleClick={handleClick} plan_name={"MahindraThar 11"} plan_cycle={4} plan_daily_earning={50000} plan_amount={30000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={asset2} handleClick={handleClick} plan_name={"Finolex 11"} plan_cycle={4} plan_daily_earning={50000} plan_amount={30000} plan_type={'Short Plan'} />
                             </span>
                             )} */}
 
                         {/* {(userDetails.boughtLong < 1 || amountDetails.plan_state[12] === 0) ?
                             (<span className='pointer-events-none'>
-                                <Card product_type={"short"} product_image={asset3} handleClick={handleClick} plan_name={"MahindraThar 12"} plan_cycle={5} plan_daily_earning={120000} plan_amount={60000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={asset3} handleClick={handleClick} plan_name={"Finolex 12"} plan_cycle={5} plan_daily_earning={120000} plan_amount={60000} plan_type={'Short Plan'} />
                             </span>) :
                             (<span className=''>
-                                <Card product_type={"short"} product_image={asset3} handleClick={handleClick} plan_name={"MahindraThar 12"} plan_cycle={5} plan_daily_earning={120000} plan_amount={60000} plan_type={'Short Plan'} />
+                                <Card product_type={"short"} product_image={asset3} handleClick={handleClick} plan_name={"Finolex 12"} plan_cycle={5} plan_daily_earning={120000} plan_amount={60000} plan_type={'Short Plan'} />
                             </span>
                             )} */}
 

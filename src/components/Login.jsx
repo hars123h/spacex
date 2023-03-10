@@ -19,7 +19,7 @@ import asset0 from '../images/assets5/asset 0.png';
 import asset1 from '../images/assets5/asset 1.png';
 import lenskart_logo from '../images/lenskart_logo.png';
 import logo from '../images/thar_images/logo.png';
-import spacex from '../images/simages/spacex.jpg';
+import spacex from '../images/simages/ologo.png';
 
 
 

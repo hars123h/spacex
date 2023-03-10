@@ -13,8 +13,8 @@ const Card = ({ product_type, product_image, plan_name, plan_type, plan_amount, 
   return (
     <div className='mx-1 mb-2 shadow-md  bg-[#fafff9]  shadow-gray-400 border border-gray-100'  >
       <div className="info text-xs flex flex-col items-center ">
-        <img src={sample} alt="comp_img" className='h-40 w-full' />
-        {/*<img src={product_image} alt="comp_img" className='h-40 w-full' />*/}
+        {/* <img src={sample} alt="comp_img" className='h-40 w-full' /> */}
+        <img src={product_image} alt="comp_img" className='h-40 w-full' />
         <div className='px-2 w-full'>
           <div className="title  w-full bg-[#f0f8ff] px-1 py-2 my-1 text-center  font-semibold text-lg">{plan_name}</div>
         </div>

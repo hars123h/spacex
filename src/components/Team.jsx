@@ -19,6 +19,7 @@ import book_image from '../images/book_image.png';
 import logo from '../images/thar_images/logo.png';
 import assets9 from '../images/simages/assets9.jpg';
 import steam from '../images/simages/team.jpg';
+import spacex from '../images/simages/ologo.png';
 
 
 const Team = () => {
@@ -111,7 +112,7 @@ const Team = () => {
         </div>
       </div> */}
       <div>
-        <img src={steam} alt="team" />
+        <img src={spacex} alt="team" />
       </div>
       {/*userDetails.directRecharge * (amountDetails.level1_percent) / 100) + (userDetails.indirectRecharge * (amountDetails.level2_percent) / 100) + (userDetails.in_indirectRecharge * (amountDetails.level3_percent) / 100 */}
       <div className="flex border-b border-gray-300">
@@ -161,7 +162,7 @@ const Team = () => {
               return (
                 <div key={index} className='flex flex-col font-semibold justify-between w-full border leading-3 border-gray-300 text-[10px] py-4 px-2'>
                   <div className='flex items-start gap-3 w-full'>
-                    <img src={assets9} alt="turbo_logo" width={70} className='m-1' />
+                    <img src={spacex} alt="turbo_logo" width={70} className='m-1' />
                     <div className='text-sky-500 flex flex-col'>
                       <div className='text-gray-700'>Name: {String(element.mobno).substring(0, 3) + "****" + String(element.mobno).substring(7)}</div>
                       <div>Recharge: {(element.recharge_amount)}</div>
@@ -196,7 +197,7 @@ const Team = () => {
               return (
                 <div key={index} className='flex flex-col font-semibold justify-between w-full border border-gray-300  text-[10px] leading-3 py-4 px-2'>
                   <div className='flex items-start gap-3 w-full'>
-                    <img src={assets9} alt="turbo_logo" width={80} className='m-1' />
+                    <img src={spacex} alt="turbo_logo" width={80} className='m-1' />
                     <div className='text-sky-500 flex flex-col'>
                       <div className='text-gray-700'>Name: {String(element.mobno).substring(0, 3) + "****" + String(element.mobno).substring(7)}</div>
                       <div>Recharge: {(element.recharge_amount)}</div>
@@ -228,7 +229,7 @@ const Team = () => {
               return (
                 <div key={index} className='flex flex-col font-semibold justify-between w-full border border-gray-300 leading-3 text-[10px] py-4 px-2'>
                   <div className='flex items-start gap-3 w-full'>
-                    <img src={assets9} alt="turbo_logo" width={80} className='m-1' />
+                    <img src={spacex} alt="turbo_logo" width={80} className='m-1' />
                     <div className='text-sky-500 flex flex-col'>
                       <div className='text-gray-700'>Name: {String(element.mobno).substring(0, 3) + "****" + String(element.mobno).substring(7)}</div>
                       <div>Recharge: {(element.recharge_amount)}</div>

@@ -19,20 +19,23 @@ import assets9 from '../images/simages/assets9.jpg';
 import assets10 from '../images/simages/assets10.jpg';
 import assets11 from '../images/simages/assets11.jpg';
 
+import spacex from '../images/simages/ologo.png';
+
+
 const Slider = () => {
   return (
     <div className='sm:w-3/5 lg:w-3/5 m-2'>
       <Carousel showThumbs={false} autoPlay showArrows={true} infiniteLoop>
         <div>
-          <img src={assets9} className="h-[160px]" alt="img_2" />
+          <img src={spacex} className="h-[160px]" alt="img_2" />
         </div>
 
         <div>
-          <img src={assets10} className="h-[160px]" alt="img_2" />
+          <img src={spacex} className="h-[160px]" alt="img_2" />
         </div>
 
         <div>
-          <img src={assets11} className="h-[160px]" alt="img_1" />
+          <img src={spacex} className="h-[160px]" alt="img_1" />
         </div>
 
         {/* <div>
