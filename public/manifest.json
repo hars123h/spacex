@@ -1,23 +1,7 @@
 {
   "short_name": "SpaceX",
   "name": "WebApp",
-  "icons": [
-    {
-      "src": "tlogo.png",
-      "sizes": "200x54",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "tlogo.png",
-      "type": "image/png",
-      "sizes": "200x54"
-    },
-    {
-      "src": "tlogo.png",
-      "type": "image/png",
-      "sizes": "200x54"
-    }
-  ],
+
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
