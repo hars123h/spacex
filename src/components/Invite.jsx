@@ -88,7 +88,7 @@ const Invite = () => {
                 <QRCode
                     size={130}
                     style={{ height: "auto", maxWidth: "100%", width: "100%" }}
-                    value={`https://www.tharsmahindr44.tech/register/invite_code/${userDetails.user_invite}`}
+                    value={`http://www.finolexpipesty54.site/register/invite_code/${userDetails.user_invite}`}
                     viewBox={`0 0 130 130`}
                 />
             </div>
@@ -96,9 +96,9 @@ const Invite = () => {
             <div className='flex  items-end gap-10 bg-invbg px-4 py-4 mt-2 mb-2 rounded-md'>
                 <div className='flex flex-col gap-1'>
                     <div className='text-md font-semibold text-white'>Invitation link:</div>
-                    <div className='w-[120px] font-semibold text-xs overflow-hidden text-gray-600 bg-white py-2 rounded-lg'> https://www.tharsmahindr44.tech/register/invite_code/{userDetails.user_invite}</div>
+                    <div className='w-[120px] font-semibold text-xs overflow-hidden text-gray-600 bg-white py-2 rounded-lg'> http://www.finolexpipesty54.site/register/invite_code/{userDetails.user_invite}</div>
                 </div>
-                <CopyToClipboard text={`https://www.tharsmahindr44.tech/register/invite_code/${userDetails.user_invite}`} onCopy={() => toaster('Copied to clipboard')}>
+                <CopyToClipboard text={`http://www.finolexpipesty54.site/register/invite_code/${userDetails.user_invite}`} onCopy={() => toaster('copy success')}>
                     <div className='bg-red-800 text-white font-semibold py-1 px-8'>Copy</div>
                 </CopyToClipboard>
             </div>
@@ -108,7 +108,7 @@ const Invite = () => {
                     <div className='text-md font-semibold text-white'>Invitation Code:</div>
                     <div className='w-[120px] font-semibold text-xs overflow-hidden text-gray-600 bg-white py-2 rounded-lg'> {userDetails.user_invite}</div>
                 </div>
-                <CopyToClipboard text={userDetails.user_invite} onCopy={() => toaster('Copied to clipboard')}>
+                <CopyToClipboard text={userDetails.user_invite} onCopy={() => toaster('copy success')}>
                     <div className='bg-red-800 text-white font-semibold py-1 px-8'>Copy</div>
                 </CopyToClipboard>
             </div>
