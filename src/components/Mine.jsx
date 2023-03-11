@@ -315,22 +315,22 @@ const Mine = () => {
         </div>
 
         <div className="overflow-y-visible info_box bg-red-800 text-white grid grid-cols-2 w-[95%] mx-auto">
-          <div className='flex flex-col items-center border border-gray-100 p-3'>
+          <div className='flex flex-col items-center border-r border-gray-100 p-3'>
             <div>Balance</div>
             <div className='text-sm mb-2'>{new Intl.NumberFormat().format(balance)}</div>
           </div>
 
-          <div className='flex flex-col items-center border border-gray-100 p-3'>
+          <div className='flex flex-col items-center border-b border-gray-100 p-3'>
             <div>Recharge</div>
             <div className='text-sm mb-2'>{new Intl.NumberFormat().format(recharge_amount)}</div>
           </div>
 
-          <div className='flex flex-col items-center border border-gray-100 p-3'>
+          <div className='flex flex-col items-center border-t border-gray-100 p-3'>
             <div>Earning</div>
             <div className='text-sm mb-2'>{new Intl.NumberFormat().format(earning)}</div>
           </div>
 
-          <div className='flex flex-col items-center border border-gray-100 p-3'>
+          <div className='flex flex-col items-center border-l border-gray-100 p-3'>
             <div>Pending</div>
             <div className='text-sm mb-2'> 0.00</div>
           </div>
