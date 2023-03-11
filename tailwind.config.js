@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// 0b8fcb #0f1c28
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -10,7 +11,7 @@ module.exports = {
       },
       colors: {
         'regal-blue': '#243c5a',
-        'red-800': '#0f1c28',
+        'red-800': '#0b8fcb',
         'recharge-bg':'#f2f2f2',
         'withdraw': '#f2f2f2',
         "ntxt":'#cccccc',

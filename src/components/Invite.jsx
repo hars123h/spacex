@@ -39,7 +39,7 @@ const Invite = () => {
     }
 
     useLayoutEffect(() => {
-        document.body.style.backgroundColor = '#0f1c28'
+        document.body.style.backgroundColor = '#0b8fcb'
         getUserDetails();
         setLoading(false);
     }, []);
