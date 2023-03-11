@@ -136,7 +136,7 @@ const Record = () => {
                         <div key={id} className="bg-sky-200 rounded-lg shadow-md p-2 text-white mt-2 mx-2">
                             <div className='flex justify-between items-start'>
                                 <div className='flex flex-col gap-1'>
-                                    <div className='text-blue-800'>{new Date(element.time).toLocaleString(undefined, { timeZone: 'Asia/Kolkata' })}</div>
+                                    <div className='text-blue-800'>{getTimeString(element.time)}</div>
                                     <div className='text-blue-800'><span className='text-red-700 font-medium'>Withdrawal - </span>{new Intl.NumberFormat().format(element.withdrawalAmount)}</div>
                                 </div>
                                 <div>
