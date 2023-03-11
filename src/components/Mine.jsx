@@ -306,7 +306,7 @@ const Mine = () => {
       </div>
 
 
-      <div className="flex flex-col bg-red-800 gap-2  border-b border-gray-100 pt-6 mb-2 justify-center">
+      <div className="flex flex-col bg-red-800 gap-2   pt-6 mb-2 justify-center">
         <div className="info gap-2  flex flex-col items-center ">
           <img src={spacex} alt="logo" className='w-24 rounded-full bg-white p-2' />
           <div className="user_no flex flex-col text-white ">
