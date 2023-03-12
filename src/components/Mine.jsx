@@ -340,7 +340,7 @@ const Mine = () => {
 
       <div className='grid grid-cols-2 border-t border-gray-300'>
 
-        {(isBetween() || true) === false ? <div className='bg-red-800 border-r border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => toaster('You can withdraw only between 9:00 to 19:00 hours only.')}>
+        {(isBetween()) === false ? <div className='bg-red-800 border-r border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => toaster('You can withdraw only between 9:00 to 19:00 hours only.')}>
           <img src={my1} alt="invite" className='w-10 h-10 mb-1 mx-auto' />
           <div className='text-center text-white text-md font-semibold'>Withdrawl</div>
         </div> : <div className='bg-red-800 border-r border-gray-300 flex-col flex items-center justify-around p-9  cursor-pointer' onClick={() => navigate('/withdrawal', { state: { withdrawalPassword: originalwpwd, loginPassword: originalpwd } })}>

@@ -338,8 +338,8 @@ const Home = () => {
                             <div className='flex flex-col  p-2 text-sm gap-2 font-normal bg-white text-red-800  pt-4 mb-[20px]'>
                                 <img src={slide1} alt="notice_image" width={"90%"} />
                                 <div className='text-semibold mb-[100px]'>
-                                    🔥🔥🔥Signup bonus: 120 <br />
-                                    🔥🔥🔥Minimum withdrawal: 200 <br />
+                                    🔥🔥🔥Signup bonus: 100 <br />
+                                    🔥🔥🔥Minimum withdrawal: 150 <br />
                                     🔥🔥🔥All plan are Daily Withdrawal <br />
                                 </div>
                                 {/* <div>Welcome to Mahindra Thar App</div>
@@ -403,7 +403,7 @@ const Home = () => {
                     </div>
 
                     <div className='cursor-pointer  flex flex-col justify-center items-center p-6 border-b border-white '>
-                        <img src={assets1} alt="invite" className='w-12' onClick={() => (isBetween() || true) ?
+                        <img src={assets1} alt="invite" className='w-12' onClick={() => (isBetween()) ?
                             navigate('/withdrawal', { state: { withdrawalPassword: originalwpwd, loginPassword: originalpwd } }) : toaster('You can withdraw only between 10:00 AM to 7:00 PM')
                         } />
                         <div className='font-bold mt-[3px]'>Withdrawal</div>
