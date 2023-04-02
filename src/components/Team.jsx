@@ -135,17 +135,17 @@ const Team = () => {
 
 
         <div className="flex items-center w-full font-[300]">
-          <div className={`${currentVisible === 'level1' ? 'bg-team_sl text-red-700 border-b-2 border-red-700' : 'border-b-[0.5px] border-l-[0.5px] border-r-[0.5px] border-gray-200 text-gray-600'} p-1 text-center text-md w-1/3`} onClick={e => setCurrentVisible('level1')}>
+          <div className={`${currentVisible === 'level1' ? 'bg-team_sl text-red-700 border-b-2 border-red-700' : 'border-b-[0.5px] border-l-[0.5px] border-r-[0.5px] border-gray-200 text-gray-600'}  text-center text-sm w-1/3`} onClick={e => setCurrentVisible('level1')}>
             <div>Level 1</div>
-            <div><span className='text-sm'>&#8377;</span>{userDetails.directRecharge}</div>
+            <div><span className='text-xs'>&#8377;</span>{userDetails.directRecharge}</div>
           </div>
-          <div className={`${currentVisible === 'level2' ? 'bg-team_sl text-red-700 border-b-2 border-red-700' : 'border-b-[0.5px] border-l-[0.5px] border-r-[0.5px] border-gray-200 text-gray-600'} p-1 text-center text-md w-1/3`} onClick={e => setCurrentVisible('level2')}>
+          <div className={`${currentVisible === 'level2' ? 'bg-team_sl text-red-700 border-b-2 border-red-700' : 'border-b-[0.5px] border-l-[0.5px] border-r-[0.5px] border-gray-200 text-gray-600'}  text-center text-sm w-1/3`} onClick={e => setCurrentVisible('level2')}>
             <div>Level 2</div>
-            <div><span className='text-sm'>&#8377;</span>{userDetails.indirectRecharge}</div>
+            <div><span className='text-xs'>&#8377;</span>{userDetails.indirectRecharge}</div>
           </div>
-          <div className={`${currentVisible === 'level3' ? 'bg-team_sl text-red-700 border-b-2 border-red-700' : 'border-b-[0.5px] border-l-[0.5px] border-r-[0.5px] border-gray-200 text-gray-600'} p-1 text-center text-md w-1/3`} onClick={e => setCurrentVisible('level3')}>
+          <div className={`${currentVisible === 'level3' ? 'bg-team_sl text-red-700 border-b-2 border-red-700' : 'border-b-[0.5px] border-l-[0.5px] border-r-[0.5px] border-gray-200 text-gray-600'}  text-center text-sm w-1/3`} onClick={e => setCurrentVisible('level3')}>
             <div>Level 3</div>
-            <div><span className='text-sm'>&#8377;</span>{userDetails.in_indirectRecharge}</div>
+            <div><span className='text-xs'>&#8377;</span>{userDetails.in_indirectRecharge}</div>
           </div>
         </div>
 

@@ -11,7 +11,7 @@ module.exports = {
       },
       colors: {
         'regal-blue': '#243c5a',
-        'red-800': '#ed3300',
+        'red-800': '#ab8ac3',
         'recharge-bg':'#f2f2f2',
         'withdraw': '#f2f2f2',
         "ntxt":'#cccccc',
