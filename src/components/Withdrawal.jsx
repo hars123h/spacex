@@ -190,7 +190,7 @@ const Withdrawal = () => {
 
     const handleLastButton = () => {
         if(isBetween()===false) {
-            toaster('You can only withdraw between 9:00 to 19:00');
+            toaster('You can only withdraw between 10:00 to 19:00');
             return;
         }
         openModal();
