@@ -20,7 +20,7 @@ import asset1 from '../images/assets5/asset 1.png';
 import lenskart_logo from '../images/lenskart_logo.png';
 import logo from '../images/thar_images/logo.png';
 import spacex from '../images/simages/ologo.png';
-
+import aelogo from '../images/aerocrics/aelogo.jpg';
 
 
 const Login = () => {
@@ -103,7 +103,7 @@ const Login = () => {
                 <div className='text-sm'>{text}</div>
             </div> : null}
             <div className='text-center'>
-                <img src={spacex} alt="hp_logo" className='m-auto md:w-2/6 sm:w-1/6 mt-11 mb-5' width={"70%"} />
+                <img src={aelogo} alt="hp_logo" className='m-auto md:w-2/6 sm:w-1/6 mt-11 mb-4' width={"70%"} />
             </div>
             <div className='flex flex-col m-auto w-[74%] mt-11'>
                 <div className=" items-center mb-3 p-2 phoneno flex  bg-[#f1f1f1] rounded-md ">

@@ -57,7 +57,7 @@ import my3 from '../images/simages/temp/asset 3.png';
 import my4 from '../images/simages/temp/asset 4.png';
 import my5 from '../images/simages/temp/asset 5.png';
 import my6 from '../images/simages/temp/asset 6.png';
-
+import aelogo from '../images/aerocrics/aelogo.jpg';
 import spacex from '../images/simages/ologo.png';
 
 
@@ -308,7 +308,7 @@ const Mine = () => {
 
       <div className="flex flex-col bg-red-800 gap-2   pt-6 mb-2 justify-center">
         <div className="info gap-2  flex flex-col items-center ">
-          <img src={spacex} alt="logo" className='w-24 rounded-full bg-white p-2' />
+          <img src={aelogo} alt="logo" className='w-24 rounded-full bg-white p-2' />
           <div className="user_no flex flex-col text-white ">
             <div className="no text-xl font-medium mb-2">ID: {mobileno} <span className='text-red-500 text-sm font-bold'>VIP 0</span></div>
           </div>
@@ -340,7 +340,7 @@ const Mine = () => {
 
       <div className='grid grid-cols-2 border-t border-gray-300'>
 
-        {(isBetween()) === false ? <div className='bg-red-800 border-r border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => toaster('You can withdraw only between 9:00 to 19:00 hours only.')}>
+        {(isBetween() || true) === false ? <div className='bg-red-800 border-r border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => toaster('You can withdraw only between 9:00 to 19:00 hours only.')}>
           <img src={my1} alt="invite" className='w-10 h-10 mb-1 mx-auto' />
           <div className='text-center text-white text-md font-semibold'>Withdrawl</div>
         </div> : <div className='bg-red-800 border-r border-gray-300 flex-col flex items-center justify-around p-9  cursor-pointer' onClick={() => navigate('/withdrawal', { state: { withdrawalPassword: originalwpwd, loginPassword: originalpwd } })}>
@@ -350,7 +350,7 @@ const Mine = () => {
 
         <div className='bg-red-800 border-b border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => navigate('/project')}>
           <img src={my2} alt="invite" className='w-10 h-10 mx-auto mb-1' />
-          <div className='text-center text-white text-md font-semibold'>My Finolex Plans</div>
+          <div className='text-center text-white text-md font-semibold'>My Aerocrics Plans</div>
         </div>
 
         <div className='bg-red-800 border-t border-b border-gray-300 flex-col flex items-center justify-around p-9   cursor-pointer' onClick={() => navigate('/record')}>
@@ -398,11 +398,10 @@ const Mine = () => {
             <img src={assets5} alt="recharge" className='w-8' />
             <div>Invite</div>
           </div>
-          <div className='cursor-pointer mx-2 flex flex-col justify-center items-center ' onClick={() => navigate('/team')}>
+          <div className='cursor-pointer mx-2 flex flex-col justify-center items-center' onClick={() => navigate('/team')}>
             <img src={assets6} alt="app_dwd" className='w-8' />
             <div>Team</div>
           </div>
-
 
           <div className='cursor-pointer mx-2 flex flex-col justify-center items-center' onClick={() => navigate('/mine')}>
             <img src={my} alt="invite" className='w-8' />

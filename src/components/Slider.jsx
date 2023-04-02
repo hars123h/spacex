@@ -12,10 +12,9 @@ import lenscart_slide4 from '../images/lenscart_slide4.webp'
 import lenscart_slide5 from '../images/lenscart_slide5.gif'
 
 
-import slide1 from '../images/simages/slide1.jpg';
-import slide2 from '../images/simages/slide2.jpg';
-import slide3 from '../images/simages/slide3.jpg';
-import slide4 from '../images/simages/slide4.jpg';
+import slide1 from '../images/aerocrics/slide1.jpg';
+import slide2 from '../images/aerocrics/slide2.jpg';
+import slide3 from '../images/aerocrics/slide3.jpg';
 
 import spacex from '../images/simages/ologo.png';
 
@@ -36,9 +35,9 @@ const Slider = () => {
           <img src={slide3} className="h-[160px]" alt="img_1" />
         </div>
 
-        <div>
+        {/* <div>
           <img src={slide4} className="h-[160px]" alt="img_1" />
-        </div>
+        </div> */}
 
         {/* <div>
           <img src={lenscart_slide4} className="h-[200px]" alt="img_1" />

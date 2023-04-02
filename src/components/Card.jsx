@@ -7,9 +7,9 @@ import sample from '../images/simages/sample.jpg';
 //[#0096D5] [#00bcd4]
 
 
-const Card = ({ product_type, product_image, plan_name, plan_type, plan_amount, plan_daily_earning, plan_cycle, handleClick }) => {
+const Card = ({ pre_sale, product_type, product_image, plan_name, plan_type, plan_amount, plan_daily_earning, plan_cycle, handleClick }) => {
 
-
+ console.log(pre_sale);
   return (
     <div className='mx-1 mb-2 shadow-md  bg-[#fafff9]  shadow-gray-400 border border-gray-100'  >
       <div className="info text-xs flex flex-col items-center ">
@@ -44,10 +44,16 @@ const Card = ({ product_type, product_image, plan_name, plan_type, plan_amount, 
 
 
       </div>
-      <div className="cursor-pointer rounded-full btn text-white font-semibold text-center  py-2  px-2 mt-1 text-md mb-2 shadow-md  w-3/5 mx-auto bg-red-800"
-        onClick={() => handleClick(product_type, plan_name, plan_type, plan_amount, plan_daily_earning, plan_cycle)}>
-        Buy Now
-      </div>
+      {pre_sale === 1 ?
+        <div className="cursor-pointer rounded-full btn text-black font-semibold text-center  py-2  px-2 mt-1 text-md mb-2 shadow-md  w-3/5 mx-auto bg-gray-300"
+          >
+          Pre-Sale
+        </div> :
+        <div className="cursor-pointer rounded-full btn text-white font-semibold text-center  py-2  px-2 mt-1 text-md mb-2 shadow-md  w-3/5 mx-auto bg-red-800"
+          onClick={() => handleClick(product_type, plan_name, plan_type, plan_amount, plan_daily_earning, plan_cycle)}>
+          Buy Now
+        </div>
+      }
     </div>
   )
 }

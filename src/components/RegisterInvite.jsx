@@ -18,7 +18,7 @@ import tuborg_logo from '../images/tuborg_logo.svg';
 import lenskart_logo from '../images/lenskart_logo.png';
 import logo from '../images/thar_images/logo.png';
 import spacex from '../images/simages/ologo.png';
-
+import aelogo from '../images/aerocrics/aelogo.jpg';
 
 
 
@@ -141,7 +141,7 @@ const Register = () => {
                 <div className='flex-grow font-[400]'>Register</div>
             </div>
             <div className='text-center'>
-                <img src={spacex} alt="hp_logo" className='m-auto md:w-2/6 sm:w-1/6 mt-10 mb-4' width={"70%"} />
+                <img src={aelogo} alt="hp_logo" className='m-auto md:w-2/6 sm:w-1/6 mt-10 mb-4' width={"70%"} />
             </div>
             <div style={{ boxShadow: "0 0.053333rem 0.533333rem 0.053333rem #dfdfdf" }} className="box mb-20   gap-2 m-auto  rounded-xl lg:w-2/5 w-[88%]  p-4 w-50% flex flex-col">
                 <div className='outline-none flex items-center justify-between mb-2  rounded-full'>

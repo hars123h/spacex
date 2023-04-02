@@ -7,7 +7,7 @@ import finCompany from '../images/simages/finCompany.jpg';
 import c9 from '../images/simages/assets9.jpg';
 import c10 from '../images/simages/assets10.jpg';
 import c11 from '../images/simages/assets11.jpg';
-
+import aelogo from '../images/aerocrics/aelogo.jpg';
 import slide1 from '../images/simages/slide1.jpg';
 import slide2 from '../images/simages/slide2.jpg';
 import slide4 from '../images/simages/slide4.jpg';
@@ -27,7 +27,7 @@ const Company = () => {
             </div>
 
             <div className="hp_company mt-4">
-                <img src={finCompany} alt="hp" className='sm:w-3/6 md:w-2/6 mx-auto' width={280} />
+                <img src={aelogo} alt="hp" className='sm:w-3/6 md:w-2/6 mx-auto' width={280} />
             </div>
 
             <div className='flex flex-col w-[88%] mx-auto justify-between items-center p-2'>
@@ -43,23 +43,32 @@ const Company = () => {
                 </div>
 
                 <div className="flex flex-col gap-2 px-2  py-2 mt-4 rounded-md w-full mx-auto">
-                    <div className='font-semibold'>Finolex</div>
+                    <div className='font-semibold'>Aerocrics</div>
                     <div className='text-xs'>
-                        Shri Pralhad P Chhabria
-                        12th March 1930 - 5th May 2016
-                        I leave behind my foundation of discipline, uncompromising product quality, a commitment to
-                        technological advancements, and the highest quality of manufacturing facilities. One must always
-                        strive to grow; but with quality in mind and sincerity in heart
-                        Shri Pralhad P. Chhabria established the Finolex Group of companies in 1958 and over the years
-                        built it into a well-known conglomerate. He continues to live in our midst through the values we have
-                        imbibed from him. Humility and an ability to focus on the basics. With an emphasis on quality,
-                        constant learning, and pushing for excellence, he is the one that has made Finolex the fine and
-                        flexible company that it is today. And he did this, not by himself, but by bringing people together.
+                        Aero the story so far
+                        Aero today is the product of over a decade's effort from people absolutely committed to the production of the best cricket protective equipment.
+                        <br />
+                        The research and development process that lead to Aero's creation started as far back as the late 1990s.
+                        <br />
+                        Underground play testing and trialling went on in New Zealand and South Africa through the early years of the last decade.
+                        <br />
+                        Our first products arrived on the market in 2004 with the introduction of the ground breaking leg , chest and lower body protectors ("Strippers").
+                        <br />
+                        All these products have been upgraded substantially since their introduction and have been joined over the last few years in the Aero product stable by a flurry of new market leading products:
+                        <br />
+                        The KPR wicketkeeping range of leg, inners and face protectors
+                        The Aero luggage range including the award-winning stand up and stand up tour bags
+                        The hand protector range in P1, P2 and P3
+                        Forearm protectors in P1, P2 and P3
+                        A comprehensive range of groin protection products that integrates with the Strippers
+                        Accessories such as the new Fielding Practice Gloves and the wrap around Aero BatGrip
+                        And most recently, the Aero Vintage range where substantial Aero DNA has been added to traditional technologies
+                        Aero has its headquarters in the North Island of New Zealand and a wholly-owned operational base in Kent in the UK.  It has distribution and retail outlets throughout the cricket playing world.
                     </div>
-                    <img src={slide1} alt="spacex" />
+                    
                 </div>
 
-                <div className="flex flex-col gap-2 px-2  py-2 mt-4 rounded-md w-full mx-auto">
+                {/* <div className="flex flex-col gap-2 px-2  py-2 mt-4 rounded-md w-full mx-auto">
                     <div className='font-semibold'>Our Manufacturing Ethos</div>
                     <div className='text-xs'>
                         Our quality towers tall because of the solid foundation our manufacturing operations offer.
@@ -81,14 +90,14 @@ const Company = () => {
                 <div className="flex flex-col gap-2 px-2  py-2 mt-4 rounded-md w-full mx-auto">
                     <div className='font-semibold'>A Network of Trust</div>
                     <div className='text-xs'>
-                    We have over 900 dealers and 21,000 retail touchpoints across the country. Many of the people in this 
-                    network have been with us for over 30 years, as members of our parivaar, our family. Over the decades, 
-                    we have earned their trust, and they, ours, as families do. Their faith in us has, in turn, inspired their 
-                    customers, many of whom swear by our products. Creating a beautifully interwoven tapestry of partnerships. 
-                    An interconnected network of collaboration and trust, that is as enduring as the pipes and fittings.
+                        We have over 900 dealers and 21,000 retail touchpoints across the country. Many of the people in this
+                        network have been with us for over 30 years, as members of our parivaar, our family. Over the decades,
+                        we have earned their trust, and they, ours, as families do. Their faith in us has, in turn, inspired their
+                        customers, many of whom swear by our products. Creating a beautifully interwoven tapestry of partnerships.
+                        An interconnected network of collaboration and trust, that is as enduring as the pipes and fittings.
                     </div>
                     <img src={slide4} alt="spacex" />
-                </div>
+                </div> */}
             </div>
 
 
