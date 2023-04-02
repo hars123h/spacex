@@ -346,7 +346,7 @@ const Home = () => {
                             <div className='flex flex-col  p-2 text-sm gap-2 font-normal bg-white text-red-800  pt-4 mb-[20px]'>
                                 <img src={aelogo} alt="notice_image" width={"90%"} />
                                 <div className='text-semibold mb-[100px]'>
-                                    🔥🔥🔥Signup bonus: 100 <br />
+                                    🔥🔥🔥Signup bonus: 120 <br />
                                     🔥🔥🔥Minimum withdrawal: 150 <br />
                                     🔥🔥🔥All plan are Daily Withdrawal <br />
                                 </div>
